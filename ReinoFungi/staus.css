@@ -1,0 +1,169 @@
+.html{
+    height:100%;
+    font-family: 'Amatic SC', sans-serif; 
+}
+
+@keyframes button333 {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+}
+
+body{
+    margin: 0;
+    height:100%;
+}
+.body2{
+    background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(imag.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{ 
+    position:absolute;
+    font-size: 40px;
+    left: 35px;
+    color: #fff;
+    background-color: transparent;
+}
+.navcompra{
+    height: 90px;
+    font-size: 35px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+
+}
+
+.section {
+    background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(imag.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.h1{
+    text-align: center;
+    margin: 0;
+    height: 90px;
+    color: #ffffffa1;
+    font-size: 57px;
+}
+
+.h2{
+    text-align: center;
+    margin: 0;
+    color: #ffffffa1;
+    font-size: 27px;
+
+}
+
+.h3{
+    color: rgb(219 5 5);
+    text-align: center;
+    font-size: 30px;
+}
+
+.button{    
+    background: none;
+    border-radius: 7px;
+    color: white;
+    border: 2px solid #6e4a26;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin: 60px 35px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.button:hover{
+animation: button333 1s ;
+}
+
+.button-bugue {
+    border-radius: 7px;
+    color: white;
+    background-color: transparent ;
+    transform-style: preserve-3d;
+    border: 2px solid #6e4a26;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin: 60px 35px;
+    font-family: 'Amatic SC', sans-serif; 
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button-bugue:after {  
+
+    border-radius: 7px;
+    color: white;
+    border: 2px solid #6e4a26;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin: 60px 35px;
+    font-family: 'Amatic SC', sans-serif; 
+    font-weight: bold;
+    background-color: none ;
+    position: absolute;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Bora!';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+    cursor: pointer;
+        
+}
+
+.button-bugue:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+
+}
+
+  /* O Gatao da uma olhada -> no efeito 6 deste video, tentei usar esse efeito (.button-bugue) mas nao deu sabe porque? https://www.youtube.com/watch?v=_w57bWIPZKE */
+
+.container{
+    text-align: center;
+    margin: 2%;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(rgb(58 50 16 / 42%), rgb(47 3 4 / 0%));
+    /* tentei bacgrond color da erro no cod */
+}
+
+.sectioncompra{
+    display: flex;
+}
+
+.imgproduto{
+    width: 100%;
+    height: 36%;
+} 
+
+

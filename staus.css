@@ -2,24 +2,15 @@
     margin: 0;
     font-family: 'Amatic SC', sans-serif; 
 }
-
-@keyframes button333 {
-    0%, 20%, 60%, 100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    40% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
-    }
-
-    80% {
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-
+a{
+    text-decoration: none;
 }
+
+img{
+    width: 100%;
+    height: 380px;
+} 
+
 body{
     background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(imag.jpg);
     background-size: cover;
@@ -35,7 +26,7 @@ p{
 
 header{ 
     height: 42px;
-    font-size: 35px;
+    font-size: 48px;
     display: flex;
     color: #fff;
     justify-content: center;
@@ -43,7 +34,6 @@ header{
 
 .navcompra{
     height: 42px;
-    font-size: 35px;
     display: flex;
     color: #fff;
     justify-content: center;
@@ -60,7 +50,7 @@ header{
     background-repeat: no-repeat;
 }
 
-.h1{
+h1{
     text-align: center;
     margin: 0;
     height: 90px;
@@ -68,15 +58,14 @@ header{
     font-size: 57px;
 }
 
-.h2{
+h2{
     text-align: center;
     margin: 0;
     color: #ffffffa1;
     font-size: 27px;
-
 }
 
-.h3{
+h3{
     color: rgb(219 5 5);
     text-align: center;
     font-size: 30px;
@@ -122,12 +111,10 @@ header{
 
 .container{
     text-align: center;
-    margin: 2%;
-    width: 100%;
-    font-size: 20px;
+    margin: 1%;
+    height: 100%;
     color: #fff;
     background-image: linear-gradient(rgb(58 50 16 / 42%), rgb(47 3 4 / 0%));
-    /* tentei bacgrond color da erro no cod */
 }
 
 .sectioncompra{
@@ -135,9 +122,20 @@ header{
     height: 94vh;
 }
 
-.imgproduto{
-    width: 100%;
-    height: 36%;
-} 
+@keyframes button333 {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
 
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
 
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+}

@@ -20,13 +20,15 @@ body{
 }
 
 p{
-    font-size: x-large;
+    font-size: 25px;
     padding: 13px;
+    height: 146px;
+    width: 100%;
 }
 
 header{ 
-    height: 42px;
-    font-size: 48px;
+    height: 66px;
+    font-size: 55px;
     display: flex;
     color: #fff;
     justify-content: center;
@@ -79,7 +81,7 @@ h3{
     width: 140px;
     height: 40px;
     font-size: 20px;
-    margin: 60px 35px;
+    margin-top: 10px;
     font-family: 'Amatic SC', sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -89,8 +91,7 @@ h3{
     animation: button333 1s ;
 }
 
-.button-w{   
-    margin-top: 83px !important;
+.button2{    
     background: none;
     border-radius: 7px;
     color: white;
@@ -98,28 +99,27 @@ h3{
     width: 140px;
     height: 40px;
     font-size: 20px;
-    margin: 60px 35px;
+    margin-top: 20px;
+    margin-left: 60px;
     font-family: 'Amatic SC', sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
 
-.button-w:hover{
-
+.button2:hover{
     animation: button333 1s ;
 }
 
 .container{
     text-align: center;
-    margin: 1%;
-    height: 100%;
+    margin: 2%;
+    width: 30%;
     color: #fff;
     background-image: linear-gradient(rgb(58 50 16 / 42%), rgb(47 3 4 / 0%));
 }
 
 .sectioncompra{
     display: flex;
-    height: 94vh;
 }
 
 @keyframes button333 {

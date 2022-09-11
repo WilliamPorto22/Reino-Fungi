@@ -20,6 +20,14 @@ body {
     height: 100vh
 }
 
+.body2{
+    background-image: linear-gradient(rgb(98 98 98 / 50%), rgb(0 0 0)), url(imag.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
 p {
     font-size: 25px;
     padding: 13px;
@@ -202,7 +210,11 @@ h3 {
     }
 
     body {
-        height: 165vh;
+        height: 100vh;
+    }
+
+    .body2{
+        height: 150vh;
     }
 
     .img-whats {
